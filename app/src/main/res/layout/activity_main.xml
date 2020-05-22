@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/home"
+    tools:context="edecom.edecom.estavezsale.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnryt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="97dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnchofer"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnryt"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent" />
+
+
+    <Button
+        android:id="@+id/btnalcoholemia"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/btnryt"
+        android:layout_below="@+id/btnryt"
+        android:layout_marginTop="21dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnconductor"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/btnchofer"
+        android:layout_alignTop="@+id/btnalcoholemia"
+        android:background="@android:color/transparent" />
+
+
+</RelativeLayout>

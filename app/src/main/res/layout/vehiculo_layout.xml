@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/estadovehiculo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="275dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Oblea:"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/dato1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="TextView"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="10dp"
+            android:layout_row="1"
+            android:text="Patente:"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/dato2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="TextView"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="10dp"
+            android:layout_row="2"
+            android:text="Marca:"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/dato3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:text="TextView"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="10dp"
+            android:layout_row="3"
+            android:text="Modelo:"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/dato4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:text="TextView"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_row="4"
+            android:text="Inspeccion Mecanica:"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/dato5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:text="TextView"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="10dp"
+            android:layout_row="5"
+            android:text="Seguro:"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/dato6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:text="TextView"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:text="I.T.V.:"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/dato7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="6"
+            android:text="TextView"
+            android:textSize="12dp" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="80dp"
+        android:background="@android:color/transparent" />
+</RelativeLayout>

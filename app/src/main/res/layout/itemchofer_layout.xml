@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <GridLayout
+        android:id="@+id/tabla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/dni"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tabla"
+            android:layout_toEndOf="@+id/tabla" />
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/tabla" />
+
+        <TextView
+            android:id="@+id/vtoLicencia"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/vtoAntecedente"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/vtoLibreta"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+    </GridLayout>
+
+
+</RelativeLayout>
